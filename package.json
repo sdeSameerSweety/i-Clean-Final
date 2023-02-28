@@ -21,6 +21,7 @@
     "file-saver": "^2.0.5",
     "firebase": "^9.15.0",
     "flowbite-datepicker": "^1.2.2",
+    "gh-pages": "^5.0.0",
     "graceful-fs": "^4.2.10",
     "gulp": "^3.9.1",
     "gulp-append-prepend": "1.0.8",
