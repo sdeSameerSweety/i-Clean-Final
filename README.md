@@ -1,3 +1,8 @@
+# To Run
+1. Open CodeSpace
+2. Run npm install --legacy-peer-deps
+3. npm start
+
 ## Project Name
 #### iClean
 
