@@ -1,0 +1,229 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border-radius: 25px; */
+}
+
+/* body {
+  background: linear-gradient(90deg, #16a085, #f4d03f);
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  height: 100vh;
+} */
+
+.menu ol {
+    background: linear-gradient(90deg, #16a085, #f4d03f);;
+  list-style: none;
+  padding: 0;
+}
+.menu ol:first-child {
+  width: 100%;
+  max-width: 960px;
+  margin: 1rem auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #16a085;
+  position: relative;
+  transition: background 0.3s ease-in-out;
+}
+.menu-item:nth-child(1) > a::before {
+  content: 	'\1F471';
+}
+.menu-item:nth-child(2) > a::before {
+  content: '\1F64B';
+}
+.menu-item:nth-child(3) > a::before {
+  content: '\1F64B';
+}
+.menu-item:nth-child(4) > a::before {
+  content: '\1F64B';
+}
+.menu-item:nth-child(5) > a::before {
+  content: '\1F64B';
+}
+.menu-item:nth-child(1) > a::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  color: #000a08;
+}
+@media (min-width: 768px) {
+  .menu-item:nth-child(1) > a::before {
+    font-size: 1.5rem;
+  }
+}
+.menu-item:nth-child(2) > a::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  color: #000202;
+}
+@media (min-width: 768px) {
+  .menu-item:nth-child(2) > a::before {
+    font-size: 1.5rem;
+  }
+}
+.menu-item:nth-child(3) > a::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  color: #000807;
+}
+@media (min-width: 768px) {
+  .menu-item:nth-child(3) > a::before {
+    font-size: 1.5rem;
+  }
+}
+.menu-item:nth-child(4) > a::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  color: #000101;
+}
+@media (min-width: 768px) {
+  .menu-item:nth-child(4) > a::before {
+    font-size: 1.5rem;
+  }
+}
+.menu-item:nth-child(5) > a::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  color: #16a085;
+}
+@media (min-width: 768px) {
+  .menu-item:nth-child(5) > a::before {
+    font-size: 1.5rem;
+  }
+}
+.menu-item .sub-menu > a {
+  color: red;
+}
+.menu-item:not(:last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+.menu-item .sub-menu {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  transform-origin: top;
+  transform: rotateX(-90deg);
+  transition: transform 0.3s linear;
+  background-color: #f4d03f;
+}
+.menu-item .sub-menu .menu-item {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.menu-item .sub-menu .menu-item a::before {
+  content: "";
+}
+.menu-item .sub-menu .menu-item:first-child {
+  border: 0;
+}
+.menu-item:hover, .menu-item.active {
+  border-top: 2px solid #f4d03f;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.menu-item:hover a::before, .menu-item.active a::before {
+  color: hwb(181 11% 17%);
+}
+.menu-item:hover .sub-menu {
+  transform: rotateX(0deg);
+}
+.menu-item a {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 100%;
+  width: 100%;
+  padding: 1.5em 1em;
+}
+@media (min-width: 768px) {
+  .menu-item a {
+    font-size: 1rem;
+  }
+}
+.text
+{
+    font-size: smaller;
+    font-weight: 400;
+    color: rgb(41, 222, 13);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 1.8rem;
+    margin-top: 1.2rem;
+}
+.logo
+{
+    font-weight: 400;
+    color: rgb(21, 255, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+    box-sizing: border-box;
+}
+.head
+{
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 65px;
+}

@@ -1,0 +1,71 @@
+{
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Bin 0",
+          "description": "A northside park that is home to the Lincoln Park Zoo"
+        },
+        "geometry": {
+          "coordinates": [85.80714781515263, 20.34966740814805],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Bin 1",
+          "description": "A lakefront park on Chicago's south side"
+        },
+        "geometry": {
+          "coordinates": [85.80720397001227, 20.347888772787343],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Bin 2",
+          "description": "A downtown park known for its art installations and unique architecture"
+        },
+        "geometry": {
+          "coordinates": [85.80726867791003, 20.342968062506586],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Bin 3",
+          "description": "A downtown park that is the site of many of Chicago's favorite festivals and events"
+        },
+        "geometry": {
+          "coordinates": [85.80694362413487, 20.354364951624547],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Bin 4",
+          "description": "A large park on Chicago's northwest side"
+        },
+        "geometry": {
+          "coordinates": [85.81815078911802,20.353754294629653],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Bin 5",
+          "description": "A large park near in Chicago's North Lawndale neighborhood"
+        },
+        "geometry": {
+          "coordinates": [85.82266350870191, 20.342384047306865],
+          "type": "Point"
+        }
+      }
+    ],
+    "type": "FeatureCollection"
+  }

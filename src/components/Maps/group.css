@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:400,700,800&display=swap");
+/* body {
+  background: #1f1a25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+} */
+
+button {
+  border: 0;
+  border-radius: 5px;
+  color: #1f1a25;
+  font-family: "Muli", Arial, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 1rem rem;
+  font-size: 1rem;
+  background-color: #78e0dc;
+  box-shadow: 0 8px #2dc5bf;
+}
+button:hover {
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+button:hover, button:focus {
+  background-color: #4fd6d1;
+}
+button:active {
+  transform: translateY(4px);
+  box-shadow: 0 3px #2dc5bf;
+}
+
+.btn-primary {
+  border: 0;
+  border-radius: 5px;
+  color: #1f1a25;
+  font-family: "Muli", Arial, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  font-size: 13px;
+  background-color: #78e0dc;
+  box-shadow: 0 8px #2dc5bf;
+}
+.btn-primary:hover {
+  cursor: pointer;
+}
+.btn-primary:focus {
+  outline: none;
+}
+.btn-primary:hover, .btn-primary:focus {
+  background-color: hwb(178 31% 16%);
+}
+.btn-primary:active {
+  transform: translateY(4px);
+  box-shadow: 0 3px hsl(177, 87%, 78%);
+}
+
+.btn-secondary {
+  border: 0;
+  border-radius: 5px;
+  color: #1f1a25;
+  font-family: "Muli", Arial, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  font-size: 13px;
+  background-color: #b8b3e9;
+  box-shadow: 0 8px #6e64d2;
+}
+.btn-secondary:hover {
+  cursor: pointer;
+}
+.btn-secondary:focus {
+  outline: none;
+}
+.btn-secondary:hover, .btn-secondary:focus {
+  background-color: #938bde;
+}
+.btn-secondary:active {
+  transform: translateY(4px);
+  box-shadow: 0 3px #6e64d2;
+}
+
+.btn-secondary-custom {
+  border: 0;
+  border-radius: 5px;
+  color: #1f1a25;
+  font-family: "Muli", Arial, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  font-size: 13px;
+  background-color: #fde74c;
+  box-shadow: 0 8px #e0c503;
+}
+.btn-secondary-custom:hover {
+  cursor: pointer;
+}
+.btn-secondary-custom:focus {
+  outline: none;
+}
+.btn-secondary-custom:hover, .btn-secondary-custom:focus {
+  background-color: #fce01a;
+}
+.btn-secondary-custom:active {
+  transform: translateY(4px);
+  box-shadow: 0 3px #e0c503;
+}
+
+
+.btn-secondary-custom2 {
+  border: 0;
+  border-radius: 5px;
+  color: #1f1a25;
+  font-family: "Muli", Arial, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  font-size: 13px;
+  background-color: #f20101;
+  box-shadow: 0 8px #fa4b4b;
+}
+.btn-secondary-custom2:hover {
+  cursor: pointer;
+}
+.btn-secondary-custom2:focus {
+  outline: none;
+}
+.btn-secondary-custom2:hover, .btn-secondary-custom2:focus {
+  background-color: #f83131;
+}
+.btn-secondary-custom2:active {
+  transform: translateY(4px);
+  box-shadow: 0 3px #fa4141;
+}

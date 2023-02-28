@@ -1,0 +1,115 @@
+.successContainermap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: fit-content;
+    height: 60vh;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 1rem 3rem;
+    position: absolute;
+    top: 350px;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    background-color: #FAFCFE;
+
+}
+.successContainermap2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: fit-content;
+    height: 60vh;
+    /* border: 2px solid green;
+    border-radius: 10px; */
+    padding: 1rem 1rem;
+    position: absolute;
+    top: 350px;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    /* background-color: #FAFCFE; */
+
+}
+
+.successwrappermap{
+    content: "";
+    position: absolute;
+    height: 85vh;
+    width: 100vw;
+    top: 400px;
+    left: 40%;
+    margin-left: 21%;
+    margin-right: 21%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,.3);
+    z-index: 10;
+}
+
+.successwrappermap2{
+    content: "";
+    position: absolute;
+    height: 85vh;
+    width: 100vw;
+    top: 400px;
+    left: 40%;
+    margin-left: 21%;
+    margin-right: 21%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,.3);
+    z-index: 10;
+}
+
+.successContainermap img{
+    width: auto;
+    height: 50%;
+    margin: auto;
+}
+
+.successContainermapbutton22{
+    background-color: green;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    color: #fff;
+}
+
+.button235{
+    background-color: rgb(232, 26, 84);
+    border-radius: 5px;
+    padding: .4rem 1rem;
+    color: #fff;
+}
+.button2352{
+    background-color: rgb(232, 26, 84);
+    border-radius: 5px;
+    padding: .4rem 1rem;
+    margin-top: 6.5rem;
+    margin-left: 46rem;
+    color: #fff;
+}
+
+.button_table{
+    background-color: rgb(8, 0, 9);
+    border-radius: 5px;
+    left: 1200px;
+    padding: .4rem 1rem;
+    position: sticky;
+    color: rgb(255, 0, 0);
+}
+.button_table:hover{
+    box-shadow: rgb(15, 92, 137) 0 3px 15px inset, rgba(85, 77, 238, 0.499) 0 3px 5px, rgba(238, 230, 230, 0.1) 0 10px 13px;
+    transform: scale(1.05);
+}
+
+.refresh
+{
+    color:rgb(18, 1, 5);
+    margin-left: -34.5rem;
+    margin-top: 4.5rem;
+    padding: 0.2rem 1rem;
+    background-color: rgb(221, 233, 89);
+    box-shadow: 2px rgb(220, 213, 222);
+}
