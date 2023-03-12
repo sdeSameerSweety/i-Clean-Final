@@ -1,7 +1,6 @@
 {
   "name": "notus-react",
   "version": "1.1.0",
-  "homepage": "https://addymistrel.github.io",
   "description": "Notus React - A free Tailwind CSS and React UI Kit and Admin by Creative Tim.",
   "repository": "https://github.com/creativetimofficial/notus-react",
   "license": "MIT",
@@ -85,7 +84,5 @@
   "devDependencies": {
     "@babel/helper-compilation-targets": "^7.20.7",
     "tailwindcss": "2.2"
-  },
-  "dev": "concurrently -k 'cross-env BROWSER=none npm start' 'npm:electron'",
-  "electron": "wait-on http://localhost:3000 && electron"
+  }
 }
