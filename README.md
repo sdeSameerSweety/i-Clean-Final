@@ -10,7 +10,7 @@
 #### Sustainable Development
 
 
-## Github Repo
+## Main Repo
 #### https://github.com/addymistrel/i-Clean.git
 
 
