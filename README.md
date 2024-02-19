@@ -11,7 +11,7 @@
 
 
 ## Main Repo
-#### https://github.com/addymistrel/i-Clean.git
+#### https://github.com/sdeSameerSweety/i-Clean-Final.git
 
 
 ## About the Project
